@@ -43,5 +43,18 @@ $(document).ready(function(){
       });
   });
 
-  
+  $('#list').on('click', '.delete-button', function(event) {
+      let $item = $(event.target).parent();
+      let $itemId = $item.attr('data-id');
+
+      let $deleteTodo = $.ajax({
+          type: 'DELETE',
+          url: 'https://listalous.herokuapp.com/lists/kmcelveen/items/' + $itemId,
+      });
+
+      $deleteTodo.done(function(itemData) {
+          console.log('deleted todo', itemData);
+          $item.remove();
+      });
+  });
 });
