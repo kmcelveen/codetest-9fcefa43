@@ -1,0 +1,30 @@
+{
+  "name": "codetest-9fcefa43",
+  "version": "1.0.0",
+  "description": "Hi. We like to code, and we want to hire people like us. Please read these instructions carefully and follow them the best you can. If you get stuck email us--there's a ```mailto:``` link at the bottom of these instructions to do that.",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kmcelveen/codetest-9fcefa43.git"
+  },
+  "author": "Kristina McElveen",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/kmcelveen/codetest-9fcefa43/issues"
+  },
+  "homepage": "https://github.com/kmcelveen/codetest-9fcefa43#readme",
+  "devDependencies": {
+    "express": "^4.14.0"
+  },
+  "dependencies": {
+    "chai": "^3.5.0",
+    "cors": "^2.8.1",
+    "method-override": "^2.3.6",
+    "mocha": "^3.1.2",
+    "semantic-ui": "^2.2.6"
+  }
+}

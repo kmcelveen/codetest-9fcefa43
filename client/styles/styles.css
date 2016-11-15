@@ -1,0 +1,83 @@
+#container {
+  width: 600px;
+  font-family: 'Arial', sans-serif;
+  font-size: 40px;
+  text-align: center;
+  margin: 40px auto;
+}
+
+h1 {
+  margin: 20px;
+  color: #7d82b0;
+}
+
+#formDiv {
+  box-shadow: 0 0 5px grey;
+  font-size: 35px;
+  color: lightblue;
+  background-color: white;
+}
+
+form {
+  margin: 0;
+  padding: 0;
+}
+
+#create {
+  width: 100%;
+  font-family: inherit;
+  font-size: inherit;
+  padding: 10px 30px;
+  border-left:    1px  solid lightblue;
+  border-right:   1px  solid lightblue;
+  border-bottom:  2px  solid lightblue;
+  border-top:     10px solid pink;
+  text-align: center;
+}
+
+#list {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.item {
+  position: relative;
+  box-sizing: border-box;
+  padding: 20px;
+  list-style-type: none;
+  width: 100%;
+  border-left:    1px  solid #7d82b0;
+  border-right:   1px  solid #7d82b0;
+  border-bottom:  2px  solid #7d82b0;
+  border-top:     1px  solid #7d82b0;
+
+}
+
+.item .complete-button {
+  position: absolute;
+  left: 20px;
+  top: 10px;
+  cursor: pointer;
+}
+
+.item .value {
+  margin: 0 50px;
+  padding: 0 15px;
+}
+
+.item .delete-button {
+  position: absolute;
+  right: 20px;
+  top: 10px;
+  cursor: pointer;
+}
+
+.item.completed {
+  color: green;
+}
+
+#list-item {
+  display: none
+}
